@@ -1,12 +1,20 @@
 # A3RT SDK for Python
 
-これはA3RTの[A3RT](https://a3rt.recruit-tech.co.jp/)をPythonから利用するためのSDKです。
+`a3rt-sdk-py` is a Python library for [A3RT](https://a3rt.recruit-tech.co.jp/) APIs provided by Recruit Technologies Co., Ltd.
 
 ## Requirement
 
 - requests
 
 ## Installation
+
+To install a3rt-sdk-py from PyPI: 
+
+```shell
+$ pip install a3rt-sdk-py
+```
+
+You can also install from source code:
 
 ```shell
 $ git clone git@github.com:A3RT/a3rt-sdk-py.git

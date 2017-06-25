@@ -77,8 +77,7 @@ class API(object):
         endpoint = "proofreading/v1/typo"
         return self.request(endpoint, params=params)
 
-    def image_influence
-(self, **params):
+    def image_influence(self, **params):
         """Image Influence API
 
         Parameters

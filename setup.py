@@ -5,7 +5,7 @@ from setuptools import setup
 setup(
     name="a3rt-sdk-py",
     packages=["a3rt"],
-    version="0.0.1",
+    version="0.0.2",
     description="Python SDK for A3RT",
     install_requires=["requests"],
     url="https://a3rt.recruit-tech.co.jp/",

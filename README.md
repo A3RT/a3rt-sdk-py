@@ -38,6 +38,12 @@ api = a3rt.API(apikey="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
 api.text_suggest(previous_description="馬", style=0)
 ```
 
+### Text Suggest API Version 2
+
+```python
+api.text_suggest_v2(previous_description="馬", style="xxxxxxxxxxx")
+```
+
 ### Text Classification API
 
 ```python

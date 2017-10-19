@@ -25,7 +25,7 @@ $ python setup.py install
 ## Usage
 
 ```python
-import a3rt
+from a3rt import a3rt
 
 api = a3rt.API(apikey="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
 ```

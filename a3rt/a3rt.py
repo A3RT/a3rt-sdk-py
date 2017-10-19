@@ -46,6 +46,23 @@ class API(object):
         endpoint = "text_suggest/v1/predict"
         return self.request(endpoint, params=params)
 
+    def text_suggest_v2(self, **params):
+        """Text Suggest API Version2
+
+        Parameters
+        ----------
+        - previous_description (必須): 文を生成するための入力文を指定します
+        - style (任意): 生成する文の種類を指定します。現代文／和歌／プログラミング言語（Go）／ユーザー独自モデルの４種類から選べます。
+        - separation (任意): 生成する文の長さを指定します。単語／フレーズ／センテンスの３種類から選べます。
+
+        Docs
+        ----
+        https://a3rt.recruit-tech.co.jp/product/textSuggestAPI/
+        """
+
+        endpoint = "text_suggest/v2/predict"
+        return self.request(endpoint, params=params)
+
     def talk(self, **params):
         """Talk API
 

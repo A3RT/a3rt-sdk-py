@@ -1,6 +1,6 @@
 # A3RT SDK for Python
 
-`a3rt-sdk-py` is a Python library for [A3RT](https://a3rt.recruit-tech.co.jp/) APIs provided by Recruit Technologies Co., Ltd.
+`a3rt-sdk-py` is a Python library for [A3RT](https://a3rt.recruit.co.jp/) APIs provided by Recruit Co., Ltd.
 
 ## Requirement
 
@@ -27,21 +27,15 @@ $ python setup.py install
 ```python
 from a3rt import a3rt
 
-api = a3rt.API(apikey="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA")
+api = a3rt.API(apikey="YOURAPIKEY")
 ```
 
 ## Example
 
-### Text Suggest API
-
-```python
-api.text_suggest(previous_description="馬", style=0)
-```
-
 ### Text Suggest API Version 2
 
 ```python
-api.text_suggest_v2(previous_description="馬", style="xxxxxxxxxxx")
+api.text_suggest(previous_description="馬", style="0")
 ```
 
 ### Text Classification API
@@ -56,20 +50,14 @@ api.text_classification(text="システムの企画から開発・運用まで�
 api.talk(query="こんにちは")
 ```
 
-### Image Influence API
-
-```python
-api.image_influence(imagefile="sample.jpg", predict=1)
-```
-
-### Proofreading API
+### Proofreading API Version2
 
 ```python
 api.proofreading(sentence="システムの規格から開発・運用まで幅広く関われます。")
 ```
 
-## Author
+### Named Entity API
 
-- Ngo_Hong_Giang
-- sahori_uchida
-- yuki_okuda
+```python
+api.named_entity(sentence="佐藤太郎さんの誕生日は1月1日です。")
+```

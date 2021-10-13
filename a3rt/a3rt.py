@@ -60,7 +60,7 @@ class API(object):
 
         endpoint = "talk/v1/smalltalk"
         return self.request(endpoint, "POST", params=params)
-    
+
     def proofreading(self, **params):
         """Proofreading API Version2 (Version1 is not supported)
 

@@ -5,10 +5,10 @@ from setuptools import setup
 setup(
     name="a3rt-sdk-py",
     packages=["a3rt"],
-    version="0.0.3",
+    version="0.0.4",
     description="Python SDK for A3RT",
     install_requires=["requests"],
-    url="https://a3rt.recruit-tech.co.jp/",
+    url="https://a3rt.recruit.co.jp/",
     classifiers=[
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
